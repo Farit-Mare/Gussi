@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Document</title>
+	<link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+	<header>
+			<img class="logo-pic" src="img/logo.svg" alt="Gussi logo pic" width="65" height="36" />
+	</header>
+	<main class="gussi-main">
+		<section class="slider">
+			<div class="swiper">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<div class="swiper-slide">
+						<picture>
+							<source media="(min-width: 1360px)" srcset="img/slider-desktop-img1.jpg">
+							<source media="(min-width: 720px)" srcset="img/slider-tablet-img1.jpg">
+							<img class="slider-picture" src="img/slider-img1.jpg" alt="slider background pic"
+								width="320" height="600" />
+						</picture>
+						<div class="slider-atribute">
+							<h2>Light coat</h2>
+							<p>More catton, more freedom</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<picture>
+							<source media="(min-width: 1360px)" srcset="img/slider-desktop-img2.jpg">
+							<source media="(min-width: 720px)" srcset="img/slider-tablet-img2.jpg">
+							<img class="slider-picture" src="img/slider-img2.jpg" alt="slider background pic"
+								width="320" height="600" />
+						</picture>
+						<div class="slider-atribute">
+							<h2>Sundy longslyve</h2>
+							<p>More catton, more freedom</p>
+						</div>
+					</div>
+					<div class="swiper-slide">
+						<picture>
+							<source media="(min-width: 1360px)" srcset="img/slider-desktop-img3.jpg">
+							<source media="(min-width: 720px)" srcset="img/slider-tablet-img3.jpg">
+							<img class="slider-picture" src="img/slider-img3.jpg" alt="slider background pic" width="320"
+								height="600" />
+						</picture>
+						<div class="slider-atribute">
+							<h2>Lime jacket</h2>
+							<p>More catton, more freedom</p>
+						</div>
+					</div>
+				</div>
+				<!-- If we need pagination -->
+				<div class="swiper-pagination"></div>
+
+				<!-- If we need navigation buttons -->
+				<button class="swiper-button-prev"></button>
+				<button class="swiper-button-next"></button>
+			</div>
+		</section>
+		<div class="desktop-flex">
+			<section class="new-coll">
+				<h5>New collection</h5>
+				<h1>Gussi light coat</h1>
+				<p>
+					It takes you from the party to the after party with its fashion-forward styles. A playfull
+					blend of retro and modern outdoor design.
+				</p>
+			</section>
+			<section class="attributes">
+				<div class="colour">
+					<h5>Colour</h5>
+					<div class="colour-wrap">
+						<input class="colour-input colour-input1" type="radio" name="colour" id="colour1">
+						<label class="colour-label colour-label1" for="colour1"></label>
+						<input class="colour-input colour-input2" type="radio" name="colour" id="colour2">
+						<label class="colour-label colour-label2" for="colour2"></label>
+						<input class="colour-input colour-input3" type="radio" name="colour" id="colour3">
+						<label class="colour-label colour-label3" for="colour3"></label>
+					</div>
+				</div>
+				<div class="size">
+					<h5>Size</h5>
+					<div class="size-wrap">
+						<input class="size-input size-input1" type="radio" name="size" id="size1">
+						<label class="size-label size-label1" for="size1">
+							<span class="size-span size-span-xs">xs</span>
+						</label>
+						<input class="size-input size-input2" type="radio" name="size" id="size2">
+						<label class="size-label size-label2" for="size2">
+							<span class="size-span size-span-s">s</span>
+						</label>
+						<input class="size-input size-input3" type="radio" name="size" id="size3">
+						<label class="size-label size-label3" for="size3">
+							<span class="size-span size-span-m">m</span>
+						</label>
+						<input class="size-input size-input4" type="radio" name="size" id="size4">
+						<label class="size-label size-label4" for="size4">
+							<span class="size-span size-span-l">l</span>
+						</label>
+						<input class="size-input size-input5" type="radio" name="size" id="size5">
+						<label class="size-label size-label5 xl" for="size5">
+							<span class="size-span size-span-xl">xl</span>
+						</label>
+					</div>
+					<button class="size-button">Size guide</button>
+				</div>
+				<div class="quantity-cost">
+					<div class="quantity">
+						<h5>Quantity</h5>
+						<button class="minus-button">
+							<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M12.5692 8.72998H3.43077C3.14359 8.72998 3 8.60035 3 8.34109V7.61887C3 7.35961 3.14359 7.22998 3.43077 7.22998H12.5692C12.8564 7.22998 13 7.35961 13 7.61887V8.34109C13 8.60035 12.8564 8.72998 12.5692 8.72998Z"
+									fill="#192B3F" />
+							</svg>
+						</button>
+						<input type="text" value="1">
+						<button class="plus-button">
+							<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path
+									d="M8.82278 7.21717H12.6203C12.8734 7.21717 13 7.34343 13 7.59596V8.40404C13 8.63973 12.8734 8.75758 12.6203 8.75758H8.82278V12.596C8.82278 12.8653 8.6962 13 8.44304 13H7.58228C7.32911 13 7.20253 12.8653 7.20253 12.596V8.75758H3.37975C3.12658 8.75758 3 8.63973 3 8.40404V7.59596C3 7.34343 3.12658 7.21717 3.37975 7.21717H7.20253V3.40404C7.20253 3.13468 7.32911 3 7.58228 3H8.44304C8.6962 3 8.82278 3.13468 8.82278 3.40404V7.21717Z"
+									fill="#192B3F" />
+							</svg>
+						</button>
+					</div>
+					<div class="cost">
+						<h5>Cost</h5>
+						<p>
+							$
+							<span class="sum1">120</span><span class="sum2">.00</span>
+						</p>
+					</div>
+				</div>
+			</section>
+			<section class="product-details">
+				<h5>Product details</h5>
+				<p>
+					Look out for its standout party dresses, feminine details, statement jackets and cool
+					denim including skinny-cut jeans and cute denim shorts, which sit alongside its
+					directional footwear and swimwear ranges.
+				</p>
+				<span class="viscose">
+					63% Viscose, 37% Polyamide.
+				</span>
+				<button class="order-button">Order now</button>
+				<div class="delivery">
+					<button class="delivery-button">Delivery
+						<svg class="delivery-button-plus" width="16" height="16" viewBox="0 0 16 16" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.82278 7.21717H12.6203C12.8734 7.21717 13 7.34343 13 7.59596V8.40404C13 8.63973 12.8734 8.75758 12.6203 8.75758H8.82278V12.596C8.82278 12.8653 8.6962 13 8.44304 13H7.58228C7.32911 13 7.20253 12.8653 7.20253 12.596V8.75758H3.37975C3.12658 8.75758 3 8.63973 3 8.40404V7.59596C3 7.34343 3.12658 7.21717 3.37975 7.21717H7.20253V3.40404C7.20253 3.13468 7.32911 3 7.58228 3H8.44304C8.6962 3 8.82278 3.13468 8.82278 3.40404V7.21717Z"
+								fill="#192B3F" />
+						</svg>
+					</button>
+					<div>
+						<!-- <p>
+							Delivered on or before Monday, 25 February 2019
+							Note: Subject to placing your order before specific cut-off times. Details available in
+							checkout.
+							For free delivery – spend over £18.08
+						</p> -->
+					</div>
+				</div>
+				<div class="return">
+					<button class="return-button">Return
+						<svg class="delivery-button-plus" width="16" height="16" viewBox="0 0 16 16" fill="none"
+							xmlns="http://www.w3.org/2000/svg">
+							<path
+								d="M8.82278 7.21717H12.6203C12.8734 7.21717 13 7.34343 13 7.59596V8.40404C13 8.63973 12.8734 8.75758 12.6203 8.75758H8.82278V12.596C8.82278 12.8653 8.6962 13 8.44304 13H7.58228C7.32911 13 7.20253 12.8653 7.20253 12.596V8.75758H3.37975C3.12658 8.75758 3 8.63973 3 8.40404V7.59596C3 7.34343 3.12658 7.21717 3.37975 7.21717H7.20253V3.40404C7.20253 3.13468 7.32911 3 7.58228 3H8.44304C8.6962 3 8.82278 3.13468 8.82278 3.40404V7.21717Z"
+								fill="#192B3F" />
+						</svg>
+					</button>
+					<div>
+						<!-- <p>
+							Return through your local Boxberry store available in over 2,300 locations.
+							You can create your return on the carrier website by clicking the create return link.
+							Open 7 days a week, early until late.
+						</p> -->
+					</div>
+				</div>
+			</section>
+			<section class="similar-col">
+				<h5>Similar collections</h5>
+				<div class="sim-pics">
+					<picture>
+						<source media="(min-width: 1360px)" srcset="img/kingsman-style-desktop-img.jpg">
+						<source media="(min-width: 720px)" srcset="img/kingsman-style-tablet-img.jpg">
+						<img class="kingsman-picture" src="img/kingsman-style-mob-img.jpg" alt="kingsman background pic"
+							width="320" height="600" />
+					</picture>
+					<h3 class="kingsman-h3">Kingsman style</h3>
+					<p class="kingsman-p">More silk, more freedom</p>
+					<picture>
+						<source media="(min-width: 1360px)" srcset="img/denim-goddess-desktop-img.jpg">
+						<source media="(min-width: 720px)" srcset="img/denim-goddess-tablet-img.jpg">
+						<img class="denim-picture" src="img/denim-goddess-mob-img.jpg" alt="denim background pic" width="320"
+							height="600" />
+					</picture>
+					<h3 class="denim-h3">Denim goddess</h3>
+					<p class="denim-p">More denim, more freedom</p>
+				</div>
+			</section>
+			<section class="subscribe">
+				<h3 class="sub-news">Subscribe our newsletter</h3>
+				<h4 class="sub-get">Get notified about new collections
+					of Gussi Store
+				</h4>
+				<input class="in-name" type="text" placeholder="Enter your name">
+				<input class="in-mail" type="email" placeholder="Enter your e-mail">
+				<div class="sub-choose-gender">
+					<h3 class="sub-choose">Choose your gender:</h3>
+					<div class="gender">
+						<input class="gender-input" type="radio" id="male" name="gender" checked>
+						<label class="gender-label" for="male">Male</label>
+						<input class="gender-input" type="radio" id="female" name="gender">
+						<label class="gender-label" for="female">Female</label>
+					</div>
+				</div>
+				<div class="sub-chek">
+					<input class="chekb-input" type="checkbox" id="chekb">
+					<label class="chekb-label" for="chekb">Look out for its standout party dresses,
+						feminine details
+					</label>
+				</div>
+				<button class="sub-button">Subscribe Gussi</button>
+			</section>
+		</div>
+	</main>
+	<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+	<script src="js/swiper-script.js"></script>
+</body>
+
+</html>

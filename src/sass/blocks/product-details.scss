@@ -1,0 +1,106 @@
+.product-details {
+	padding: 0 16px;
+	margin-bottom: 41px;
+}
+
+.product-details h5 {
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin: 0 0 9px;
+
+	@media (min-width: 1360px) {
+		margin: 0 0 9px;
+	}
+}
+
+.product-details p {
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 24px;
+	margin: 0px 0 9px;
+
+	@media (min-width: 1360px) {
+		width: 94%;
+	}
+}
+
+.viscose {
+	font-size: 16px;
+	font-weight: 500;
+	opacity: 0.5;
+	margin-bottom: 20px;
+}
+
+.order-button {
+	background-color: transparent;
+	border: none;
+	background-color: #192b3f;
+	color: white;
+	width: 288px;
+	height: 56px;
+	margin-top: 39px;
+	font-family: "rajdhani";
+	font-size: 24px;
+	font-weight: 500;
+	margin-bottom: 40px;
+
+	@media (min-width: 720px) {
+		width: 100%;
+	}
+
+	@media (min-width: 1360px) {
+		width: 95%;
+		margin-top: 69px;
+		margin-bottom: 34px;
+	}
+}
+
+.delivery {
+	margin-bottom: 17px;
+	border-bottom: 1px solid black;
+	padding-bottom: 8px;
+}
+
+.delivery-button {
+	background-color: transparent;
+	border: none;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: "rajdhani";
+	margin: 0;
+	display: flex;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+.return {
+	border-bottom: 1px solid black;
+	padding-bottom: 9px;
+}
+
+.return-button {
+	background-color: transparent;
+	border: none;
+	font-size: 24px;
+	font-weight: 500;
+	font-family: "rajdhani";
+	margin: 0;
+	display: flex;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+.delivery-button-plus {
+	margin: 0;
+	position: absolute;
+	right: 0px;
+	bottom: 5px;
+
+	@media (min-width: 1360px) {
+		right: 29px;
+		bottom: 6px;
+	}
+}

@@ -1,0 +1,19 @@
+header {
+	position: absolute;
+	width: 90%;
+	padding: 24px 16px;
+	z-index: 2;
+
+	@media (min-width: 1360px) {
+		position: fixed;
+	}
+}
+
+.logo-pic {
+	@media (min-width: 1360px) {
+		width: 95px;
+		height: 53px;
+		padding-left:35px;
+		padding-top: 9px;
+	}
+}

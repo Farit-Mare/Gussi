@@ -1,0 +1,235 @@
+.subscribe {
+	margin: 0px;
+	padding: 0 16px;
+}
+
+.sub-news {
+	margin: 0 0 7px;
+	font-size: 24px;
+	font-weight: 500;
+	color: #192b3f;
+
+	@media (min-width: 720px) {
+		font-size: 32px;
+		font-weight: 500;
+		margin: 0;
+	}
+}
+
+.sub-get {
+	margin: 0 0 30px;
+	font-size: 18px;
+	font-weight: 500;
+	color: #8a94a6;
+	padding-right: 20px;
+	line-height: 28px;
+
+	@media (min-width: 720px) {
+		font-size: 20px;
+		font-weight: 500;
+	}
+
+	@media (min-width: 1360px) {
+		margin: 0 0 28px;
+	}
+}
+
+.in-name {
+	background-color: #e1e6ed;
+	border: none;
+	margin: 0 0 13px;
+	width: 272px;
+	height: 44px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #8a94a6;
+	font-family: "rajdhani";
+	padding-left: 15px;
+
+	@media (min-width: 720px) {
+		width: 440px;
+		height: 40px;
+		padding-left: 17px;
+		margin: 0 0 17px;
+	}
+}
+
+.in-mail {
+	background-color: #e1e6ed;
+	border: none;
+	margin: 0 0 13px;
+	width: 272px;
+	height: 44px;
+	font-size: 16px;
+	font-weight: 500;
+	color: #8a94a6;
+	font-family: "rajdhani";
+	padding-left: 15px;
+
+	@media (min-width: 720px) {
+		width: 440px;
+		height: 40px;
+		padding-left: 17px;
+	}
+}
+
+.sub-choose-gender {
+	@media (min-width: 720px) {
+		display: flex;
+		justify-content: space-between;
+		width: 54%;
+		margin-bottom: 11px;
+	}
+
+	@media (min-width: 1360px) {
+		width: 58%;
+	}
+}
+
+.sub-choose {
+	font-size: 20px;
+	font-weight: 500;
+	color: #8a94a6;
+	margin: 0px;
+	padding-top: 4px;
+}
+
+.gender-input + .gender-label {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+}
+
+.gender-input[type="radio"] {
+	display: none;
+}
+
+.gender-label {
+	color: #192b3f;
+	font-weight: normal;
+}
+
+.gender-label:before {
+	content: " ";
+	display: inline-block;
+	position: relative;
+	top: 5px;
+	left: -1px;
+	margin: 0 5px 0 0;
+	width: 20px;
+	height: 20px;
+	border-radius: 11px;
+	border: 1px solid #e1e6ed;
+	background-color: transparent;
+}
+
+.gender-input[type="radio"]:checked + label:after {
+	border-radius: 11px;
+	width: 12px;
+	height: 12px;
+	position: absolute;
+	top: 10px;
+	left: 4px;
+	content: " ";
+	display: block;
+	background: #192b3f;
+}
+
+.gender-label {
+	margin-right: 22px !important;
+}
+.gender {
+	margin-bottom: 30px;
+}
+
+.sub-chek {
+	position: relative;
+	margin-bottom: 14px;
+}
+
+.chekb-input[type="checkbox"] + .chekb-label {
+	display: block;
+	cursor: pointer;
+	padding: 0.2em;
+	margin-left: 25px;
+	line-height: 24px;
+
+	@media (min-width: 720px) {
+		font-weight: 500;
+	}
+}
+
+.chekb-input[type="checkbox"] {
+	display: none;
+}
+
+.chekb-input[type="checkbox"] + .chekb-label:before {
+	content: "\2714";
+	border: 0.1em solid #192b3f;
+	border-radius: 1px;
+	display: inline-block;
+	width: 19px;
+	height: 19px;
+	margin: 0px;
+	vertical-align: bottom;
+	color: transparent;
+	transition: 0.2s;
+	position: absolute;
+	left: -1px;
+	top: 2px;
+
+	@media (min-width: 720px) {
+		left: 0px;
+		top: 3px;
+	}
+}
+
+.chekb-input[type="checkbox"] + .chekb-label:active:before {
+	transform: scale(0);
+}
+
+.chekb-input[type="checkbox"]:checked + .chekb-label:before {
+	background-color: #192b3f;
+	border-color: #192b3f;
+}
+
+.chekb-input + .chekb-label::after {
+	content: "";
+	background-image: url("../img/check.svg");
+	position: absolute;
+	width: 11px;
+	background-size: 10px 9px;
+	height: 9px;
+	background-position: 0 0;
+	left: 5px;
+	top: 8px;
+	background-repeat: no-repeat;
+}
+
+.chekb-input[type="checkbox"] + .chekb-label:active::after {
+	transform: scale(0);
+	transition: ease-in-out 0.3s;
+}
+
+.sub-button {
+	background-color: transparent;
+	border: none;
+	background-color: #192b3f;
+	color: white;
+	width: 288px;
+	height: 56px;
+	margin: 0;
+	font-family: "rajdhani";
+	font-size: 24px;
+	font-weight: 500;
+	text-align: center;
+	padding-left: 4px;
+
+	@media (min-width: 720px) {
+		width: 100%;
+	}
+
+	@media (min-width: 1360px) {
+		width: 95%;
+	}
+}
